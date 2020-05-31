@@ -15,7 +15,51 @@ body {
     max-width: 800px;
     padding: 2em 2em 4em;
 }
+ul {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+}
 
+ul li {
+ float: left;
+ width: 200px;
+ height: 60px;
+    
+ background-color: dodgerblue;
+ opacity: 100;
+ line-height: 60px;
+ text-align: center;
+ font-size: 20px;
+}
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+ul li a:hover {
+ background-color: blue;
+opacity: ;
+ display: block;
+}
+
+ul li ul li{
+    text-indent: 5px;
+    width: 200px;
+ height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+text-align: left;
+ display: none;
+opacity: 100; 
+}
+
+ul li:hover ul li {
+ display: block;
+}
 h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: 600;
